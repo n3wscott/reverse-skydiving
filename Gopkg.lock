@@ -22,7 +22,7 @@
   version = "v1.4.0"
 
 [[projects]]
-  digest = "1:10060a3fd60be4fcbe1ddc72143492d4f7d02b1978de5c377313a2a3bbf55959"
+  digest = "1:ba046b7e02372728281f7ce6cdf459abae2f4c8a2b84cf5b364e22a9264d1b52"
   name = "github.com/hajimehoshi/go-mp3"
   packages = [
     ".",
@@ -36,8 +36,8 @@
     "internal/sideinfo",
   ]
   pruneopts = "UT"
-  revision = "96c001d18d97b5b09170cab468347a368c3130de"
-  version = "v0.2.1"
+  revision = "7ecd8b4c099d1e29642960a4f72067ed67200cd6"
+  version = "v0.1.2"
 
 [[projects]]
   digest = "1:b5c10495d7e59a76536e823da35f87b8b67d16006e7d054f5972ba9934254953"
@@ -119,6 +119,8 @@
     "github.com/faiface/beep/mp3",
     "github.com/faiface/beep/speaker",
     "github.com/gorilla/websocket",
+    "github.com/hajimehoshi/go-mp3",
+    "github.com/hajimehoshi/oto",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -4,7 +4,11 @@
 # for detailed Gopkg.toml documentation.
 #
 
-required = ["github.com/hajimehoshi/go-mp3"]
+required = [
+  "github.com/hajimehoshi/go-mp3",
+  "github.com/hajimehoshi/oto",
+]
+
 
 # ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
 #
