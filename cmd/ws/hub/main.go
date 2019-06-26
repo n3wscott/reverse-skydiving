@@ -8,19 +8,20 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/faiface/beep"
-	"github.com/faiface/beep/mp3"
-	"github.com/faiface/beep/speaker"
-
 	"log"
 	"net/http"
 	"os"
 	"time"
 
+	"github.com/faiface/beep"
+	"github.com/faiface/beep/mp3"
+	"github.com/faiface/beep/speaker"
+
 	"github.com/n3wscott/reverse-skydiving/pkg/hub"
 )
 
-var kodata = "/Users/nicholss/src/github.com/reverse-skydiving/cmd/ws/hub/kodata"
+//var kodata = "/Users/nicholss/src/github.com/reverse-skydiving/cmd/ws/hub/kodata"
+var kodata = "/var/run/ko"
 
 var addr = flag.String("addr", ":8080", "http service address")
 

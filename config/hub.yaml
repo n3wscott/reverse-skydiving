@@ -1,0 +1,10 @@
+apiVersion: serving.knative.dev/v1beta1
+kind: Service
+metadata:
+  name: hub
+spec:
+  template:
+    spec:
+      containers:
+      - image: github.com/n3wscott/reverse-skydiving/cmd/ws/hub
+        name: hub
